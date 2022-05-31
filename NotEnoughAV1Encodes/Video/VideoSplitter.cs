@@ -98,7 +98,31 @@ namespace NotEnoughAV1Encodes.Video
             // Iterates over the list of time codes and creates the args for ffmpeg
             foreach (string sc in scenes)
             {
-                FFmpegArgs.Add("-ss " + previousScene + " -to " + sc);
+                // ffmpeg will sometimes output an extra frame when segment end
+                // time is the same as the start time of the next segment.
+                // decrementing end by 1 ms seems to fix this
+
+                // parse tc to int ms and decrement
+                string[] code = sc.Split(":");
+                int hour = Int32.Parse(code[0]);
+                int min = Int32.Parse(code[1]);
+                string[] code2 = code[2].Split(".");
+                int sec = Int32.Parse(code2[0]);
+                int ms = Int32.Parse(code2[1]);
+                int ms_tc = ((((((hour * 60) + min) * 60) + sec) * 1000) + ms) - 1;
+
+                // back to tc
+                // note that ffmpeg will take seconds so we could probably
+                // just as easily pass ms_tc / 1000.0 (untested)
+                ms = ms_tc % 1000;
+                ms_tc /= 1000;
+                sec = ms_tc % 60;
+                ms_tc /= 60;
+                min = ms_tc % 60;
+                hour = ms_tc / 60;
+                string endScene = string.Format("{0:00}:{1:00}:{2:00}.{3:000}", hour, min, sec, ms);
+
+                FFmpegArgs.Add("-ss " + previousScene + " -to " + endScene);
                 previousScene = sc;
             }
 
