@@ -1410,7 +1410,7 @@ namespace NotEnoughAV1Encodes
                 }
 
                 settings += " -aom-params " +
-                            " tune-content=" + ComboBoxAomencTuneContent.Text +                              // Tune-Content
+                            "tune-content=" + ComboBoxAomencTuneContent.Text +                               // Tune-Content
                             ":sharpness=" + ComboBoxAomencSharpness.Text +                                   // Sharpness (Filter)
                             ":enable-keyframe-filtering=" + ComboBoxAomencKeyFiltering.SelectedIndex;        // Key Frame Filtering
 
@@ -1494,7 +1494,11 @@ namespace NotEnoughAV1Encodes
                 settings += " -tile_columns " + ComboBoxSVTAV1TileColumns.Text +                             // Tile Columns
                             " -tile_rows " + ComboBoxSVTAV1TileRows.Text +                                   // Tile Rows
                             " -g " + TextBoxSVTAV1MaxGOP.Text +                                              // Keyframe Interval
-                            " -la_depth " + TextBoxSVTAV1Lookahead.Text;                                     // Lookahead
+                            " -la_depth " + TextBoxSVTAV1Lookahead.Text +                                    // Lookahead
+                            " -svtav1-params " +
+                            "aq-mode=" + ComboBoxSVTAV1AQMode.Text +                                         // AQ Mode
+                            ":film-grain=" + TextBoxSVTAV1FilmGrain.Text +                                   // Film Grain
+                            ":film-grain-denoise=" + TextBoxSVTAV1FilmGrainDenoise.Text;                     // Film Grain Denoise
             }
 
             return settings;
@@ -1673,10 +1677,13 @@ namespace NotEnoughAV1Encodes
             }
             else
             {
-                settings += " --tile-columns " + ComboBoxSVTAV1TileColumns.Text +                            // Tile Columns
-                            " --tile-rows " + ComboBoxSVTAV1TileRows.Text +                                  // Tile Rows
-                            " --keyint " + TextBoxSVTAV1MaxGOP.Text +                                        // Keyframe Interval
-                            " --lookahead " + TextBoxSVTAV1Lookahead.Text;                                   // Lookahead
+                settings += " --tile-columns " + ComboBoxSVTAV1TileColumns.Text +                             // Tile Columns
+                            " --tile-rows " + ComboBoxSVTAV1TileRows.Text +                                   // Tile Rows
+                            " --keyint " + TextBoxSVTAV1MaxGOP.Text +                                         // Keyframe Interval
+                            " --lookahead " + TextBoxSVTAV1Lookahead.Text +                                   // Lookahead
+                            " --aq-mode " + ComboBoxSVTAV1AQMode.Text +                                       // AQ Mode
+                            " --film-grain " + TextBoxSVTAV1FilmGrain.Text +                                  // Film Grain
+                            " --film-grain-denoise " +  TextBoxSVTAV1FilmGrainDenoise.Text;                   // Film Grain Denoise                      
             }
 
             return settings;
@@ -1943,7 +1950,7 @@ namespace NotEnoughAV1Encodes
                         Global.Logger("==========================================================", queueElement.Output + ".log");
                         Global.Logger("INFO  - Started Async Task - UID: " + queueElement.UniqueIdentifier, queueElement.Output + ".log");
                         Global.Logger("INFO  - Input: " + queueElement.Input, queueElement.Output + ".log");
-                        Global.Logger("INFO  - Output: " + queueElement.Input, queueElement.Output + ".log");
+                        Global.Logger("INFO  - Output: " + queueElement.Output, queueElement.Output + ".log");
                         Global.Logger("INFO  - Temp Folder: " + Path.Combine(Global.Temp, "NEAV1E", queueElement.UniqueIdentifier), queueElement.Output + ".log");
                         Global.Logger("==========================================================", queueElement.Output + ".log");
 

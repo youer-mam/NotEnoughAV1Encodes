@@ -36,7 +36,7 @@ namespace NotEnoughAV1Encodes.Video
             MuxFFmpegChunks(queueElement);
 
             bool MuxWithMKVMerge = false;
-            bool MuxWithFFmpeg = false;
+            bool MuxWithFFmpeg = true;
             string audioFFmpegMapping = "";
             string audioMuxCommand = "";
             string subsMuxCommand = "";
@@ -80,7 +80,7 @@ namespace NotEnoughAV1Encodes.Video
                 MuxWithFFmpeg = false;
             }
 
-            if (! string.IsNullOrEmpty(queueElement.VideoHDRMuxCommand))
+            if (! string.IsNullOrWhiteSpace(queueElement.VideoHDRMuxCommand))
             {
                 MuxWithMKVMerge = true;
                 MuxWithFFmpeg = false;

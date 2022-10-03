@@ -112,377 +112,398 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ButtonClose" xml:space="preserve">
-    <value>閉じる</value>
+    <value>Fermer</value>
   </data>
   <data name="ButtonDeletePreset" xml:space="preserve">
-    <value>削除</value>
+    <value>Supprimer</value>
   </data>
   <data name="ButtonEditSelectedItem" xml:space="preserve">
-    <value>項目編集</value>
+    <value>Modifier</value>
   </data>
   <data name="ButtonExit" xml:space="preserve">
-    <value>保存して戻る</value>
+    <value>Enregistrer et fermer</value>
   </data>
   <data name="ButtonOpenBatchFolder" xml:space="preserve">
-    <value>➔ フォルダ内をバッチ処理</value>
+    <value>➔ Traitement Batch</value>
   </data>
   <data name="ButtonOpenProjectFile" xml:space="preserve">
-    <value>➔ プロジェクトファイル</value>
+    <value>➔ Ouvrir Projet</value>
   </data>
   <data name="ButtonOpenVideoFile" xml:space="preserve">
-    <value>➔ 単一ファイル</value>
+    <value>➔ Ouvrir Fichier</value>
   </data>
   <data name="ButtonRemoveSelectedQueueItem" xml:space="preserve">
-    <value>項目削除</value>
+    <value>Supprimer</value>
   </data>
   <data name="ButtonResetBGImage" xml:space="preserve">
-    <value>リセット</value>
+    <value>Enlever</value>
   </data>
   <data name="ButtonSavePreset" xml:space="preserve">
-    <value>保存</value>
+    <value>Enregistrer</value>
   </data>
   <data name="ButtonSelectBGImage" xml:space="preserve">
-    <value>選択</value>
+    <value>Sélectionner</value>
   </data>
   <data name="ButtonSetPresetDefault" xml:space="preserve">
-    <value>既定にする</value>
+    <value>Enregistrer par défaut</value>
   </data>
   <data name="ButtonTestSettings" xml:space="preserve">
-    <value>テスト設定</value>
+    <value>Tester paramètres</value>
   </data>
   <data name="ButtonUpdater" xml:space="preserve">
-    <value>更新の確認</value>
+    <value>MAJ outils</value>
   </data>
   <data name="CheckBoxCustomVideoSettings" xml:space="preserve">
-    <value>カスタム設定</value>
+    <value>Paramètres personnalisés</value>
   </data>
   <data name="CheckBoxRealTimeMode" xml:space="preserve">
-    <value>リアルタイムモード</value>
+    <value>Mode temps réel</value>
   </data>
   <data name="CheckBoxTwoPassEncoding" xml:space="preserve">
-    <value>2-Passエンコード</value>
+    <value>Encodage 2 Passes</value>
   </data>
   <data name="Error" xml:space="preserve">
-    <value>エラー</value>
+    <value>Erreur</value>
   </data>
   <data name="GroupBoxBackroundImage" xml:space="preserve">
-    <value>背景画像</value>
+    <value>Image d'arrière plan</value>
   </data>
   <data name="GroupBoxCrop" xml:space="preserve">
-    <value>クロップ</value>
+    <value>Recadrer</value>
   </data>
   <data name="GroupBoxCurrentSettings" xml:space="preserve">
-    <value>現在のエンコード設定</value>
+    <value>Paramètres actuels</value>
   </data>
   <data name="GroupBoxDeinterlace" xml:space="preserve">
-    <value>デインターレース</value>
+    <value>Désentrelacer</value>
   </data>
   <data name="GroupBoxInputOutput" xml:space="preserve">
-    <value>入力 / 出力</value>
+    <value>Source / Destination</value>
   </data>
   <data name="GroupBoxLanguage" xml:space="preserve">
-    <value>言語 (Language)</value>
-    <comment>Other Languages MUST use "&lt;Lang&gt; (Language)"</comment>
+    <value>Langue (Language)</value>
+    <comment>Les autres langues doivent uiliser "&lt;Lang&gt; (Language)"</comment>
   </data>
   <data name="GroupBoxOptimization" xml:space="preserve">
-    <value>最適化</value>
+    <value>Optimisation</value>
   </data>
   <data name="GroupBoxPresets" xml:space="preserve">
-    <value>プリセット</value>
+    <value>Réglages</value>
   </data>
   <data name="GroupBoxQuality" xml:space="preserve">
-    <value>品質</value>
+    <value>Qualité</value>
   </data>
   <data name="GroupBoxResize" xml:space="preserve">
-    <value>リサイズ</value>
+    <value>Redimensionner</value>
   </data>
   <data name="GroupBoxRotate" xml:space="preserve">
-    <value>回転</value>
+    <value>Rotation</value>
   </data>
   <data name="GroupBoxThemeSettings" xml:space="preserve">
-    <value>テーマ設定</value>
+    <value>Theme</value>
   </data>
   <data name="GroupBoxVideoContainer" xml:space="preserve">
-    <value>動画コンテナ</value>
+    <value>Format Video</value>
   </data>
   <data name="GroupBoxVideoInformation" xml:space="preserve">
-    <value>動画情報</value>
+    <value>Informations Video</value>
   </data>
   <data name="GroupBoxWorkersAndSplitting" xml:space="preserve">
-    <value>処理単位と分割</value>
+    <value>Processus et découpage</value>
+  </data>
+  <data name="HDRSettings" xml:space="preserve">
+    <value>Paramètres HDR</value>
   </data>
   <data name="LabelAccentTheme" xml:space="preserve">
-    <value>アクセントテーマ:</value>
+    <value>Couleur déco</value>
   </data>
   <data name="LabelAddToQueue" xml:space="preserve">
-    <value>キューに追加</value>
+    <value>Ajouter à la file</value>
   </data>
   <data name="LabelAvailableBatchFilename" xml:space="preserve">
-    <value>{filename} = 入力ファイル名</value>
+    <value>{filename} = Nom du fichier</value>
   </data>
   <data name="LabelAvailableBatchPresetName" xml:space="preserve">
-    <value>{presetname} = プリセット名</value>
+    <value>{presetname} = Nom du Réglage</value>
   </data>
   <data name="LabelBaseTheme" xml:space="preserve">
-    <value>基本テーマ:</value>
+    <value>Theme de base:</value>
   </data>
   <data name="LabelBatchFileName" xml:space="preserve">
-    <value>バッチファイル名:</value>
+    <value>Nom du Batch:</value>
   </data>
   <data name="LabelBitDepth" xml:space="preserve">
-    <value>ビット深度:</value>
+    <value>Couleurs (bits):</value>
   </data>
   <data name="LabelBitrate" xml:space="preserve">
-    <value>ビットレート (kbps):</value>
+    <value>Bitrate (kbps):</value>
   </data>
   <data name="LabelBitrateAvg" xml:space="preserve">
-    <value>ビットレート (平均):</value>
+    <value>Bitrate moyen:</value>
   </data>
   <data name="LabelBitrateMax" xml:space="preserve">
-    <value>ビットレート (最大):</value>
+    <value>Bitrate (max):</value>
   </data>
   <data name="LabelBitrateMin" xml:space="preserve">
-    <value>ビットレート (最小):</value>
+    <value>Bitrate (min):</value>
   </data>
   <data name="LabelBottom" xml:space="preserve">
-    <value>下</value>
+    <value>Bas</value>
   </data>
   <data name="LabelBuildsProvidedBy" xml:space="preserve">
-    <value>Builds provided by jeremylee.sh under GPLv3</value>
+    <value>Builds fournis par jeremylee.sh en GPLv3</value>
   </data>
   <data name="LabelBurnIn" xml:space="preserve">
-    <value>焼き込み:</value>
+    <value>Incruster:</value>
   </data>
   <data name="LabelCancel" xml:space="preserve">
-    <value>キャンセル</value>
+    <value>Annuler</value>
   </data>
   <data name="LabelChannels" xml:space="preserve">
-    <value>チャンネル:</value>
+    <value>Canaux:</value>
   </data>
   <data name="LabelChunkLength" xml:space="preserve">
-    <value>チャンクの長さ(秒):</value>
+    <value>Durée segments (sec.):</value>
   </data>
   <data name="LabelCodec" xml:space="preserve">
-    <value>コーデック:</value>
+    <value>Codec:</value>
   </data>
   <data name="LabelColorFormat" xml:space="preserve">
-    <value>カラーフォーマット:</value>
+    <value>Format YUV:</value>
   </data>
   <data name="LabelContainer" xml:space="preserve">
-    <value>コンテナ:</value>
-  </data>
-  <data name="LabelDefault" xml:space="preserve">
-    <value>既定:</value>
+    <value>Format</value>
   </data>
   <data name="LabelDefaultAudioBehavior" xml:space="preserve">
-    <value>音声の既定動作</value>
+    <value>Audio par défaut</value>
+  </data>
+  <data name="LabelDefaultOutputLocation" xml:space="preserve">
+    <value>Emplacement par défaut</value>
   </data>
   <data name="LabelDeinterlace" xml:space="preserve">
-    <value>デインターレース:</value>
+    <value>Filtre</value>
   </data>
   <data name="LabelDestination" xml:space="preserve">
-    <value>出力先</value>
+    <value>Destination</value>
   </data>
   <data name="LabelEncodeQueueParallel" xml:space="preserve">
-    <value>チャンク分割ではなくキューを並列にエンコードする:</value>
+    <value>Encoder la file d'attente en parallèle plutôt que segmenter</value>
   </data>
   <data name="LabelEncoder" xml:space="preserve">
-    <value>エンコーダー:</value>
+    <value>Encodeur</value>
   </data>
   <data name="LabelFramerate" xml:space="preserve">
-    <value>フレームレート:</value>
+    <value>img/sec</value>
   </data>
   <data name="LabelHeight" xml:space="preserve">
-    <value>高さ:</value>
+    <value>Hauteur:</value>
   </data>
   <data name="LabelIcons" xml:space="preserve">
-    <value>アイコン:</value>
+    <value>Icones:</value>
   </data>
   <data name="LabelLanguage" xml:space="preserve">
-    <value>言語:</value>
+    <value>Langue</value>
   </data>
   <data name="LabelLeft" xml:space="preserve">
-    <value>左</value>
+    <value>Gauche</value>
   </data>
   <data name="LabelLength" xml:space="preserve">
-    <value>長さ:</value>
+    <value>Durée</value>
   </data>
   <data name="LabelMethodOpeningSource" xml:space="preserve">
-    <value>入力元の開き方</value>
+    <value>Méthode d'ouverture de la source</value>
   </data>
   <data name="LabelNoAudioFound" xml:space="preserve">
-    <value>音声が見つかりません</value>
+    <value>Aucune piste audio</value>
   </data>
   <data name="LabelNoSubtitleFound" xml:space="preserve">
-    <value>字幕が見つかりません</value>
+    <value>Aucun sous-titres</value>
   </data>
   <data name="LabelPreset" xml:space="preserve">
-    <value>プリセット:</value>
+    <value>Réglage:</value>
   </data>
   <data name="LabelPresetName" xml:space="preserve">
-    <value>プリセット名:</value>
+    <value>Nom du réglage:</value>
   </data>
   <data name="LabelProcessPriority" xml:space="preserve">
-    <value>プロセス優先度:</value>
+    <value>Priorité CPU:</value>
   </data>
   <data name="LabelQualityMode" xml:space="preserve">
-    <value>品質モード:</value>
+    <value>Mode de qualité:</value>
   </data>
   <data name="LabelQuantizer" xml:space="preserve">
-    <value>量子化器:</value>
+    <value>Réglage:</value>
   </data>
   <data name="LabelReencodeMethod" xml:space="preserve">
-    <value>再エンコード方式:</value>
+    <value>Réencodage:</value>
   </data>
   <data name="LabelResolution" xml:space="preserve">
-    <value>解像度:</value>
+    <value>Résolution:</value>
   </data>
   <data name="LabelRight" xml:space="preserve">
-    <value>右</value>
+    <value>Droite</value>
   </data>
   <data name="LabelRotate" xml:space="preserve">
-    <value>回転 (時計回り):</value>
+    <value>Rotation (Horaire):</value>
+  </data>
+  <data name="LabelScalingAlgorithm" xml:space="preserve">
+    <value>Algorithme:</value>
   </data>
   <data name="LabelSelectPresetForEncoding" xml:space="preserve">
-    <value>エンコードするプリセットを選択:</value>
+    <value>Réglage pour l'encodage:</value>
   </data>
   <data name="LabelSource" xml:space="preserve">
-    <value>入力元</value>
+    <value>Source</value>
   </data>
   <data name="LabelSpeed" xml:space="preserve">
-    <value>速度</value>
+    <value>Vitesse</value>
   </data>
   <data name="LabelSplittingMethod" xml:space="preserve">
-    <value>分割方式:</value>
+    <value>Type de découpage:</value>
   </data>
   <data name="LabelStartPauseButton" xml:space="preserve">
-    <value>開始</value>
+    <value>Démarrer</value>
   </data>
   <data name="LabelStatus" xml:space="preserve">
-    <value>ステータス:</value>
+    <value>Etat:</value>
   </data>
   <data name="LabelTempPath" xml:space="preserve">
-    <value>一時パス</value>
+    <value>Dossier temp</value>
   </data>
   <data name="LabelTheme" xml:space="preserve">
-    <value>テーマ:</value>
+    <value>Theme:</value>
   </data>
   <data name="LabelThreshold" xml:space="preserve">
-    <value>しきい値:</value>
+    <value>Seuil:</value>
   </data>
   <data name="LabelTop" xml:space="preserve">
-    <value>上</value>
+    <value>Haut</value>
   </data>
   <data name="LabelTrackName" xml:space="preserve">
-    <value>トラック名:</value>
+    <value>Nom piste:</value>
   </data>
   <data name="LabelVersion" xml:space="preserve">
-    <value>バージョン:</value>
+    <value>Version:</value>
   </data>
   <data name="LabelVideoDestination" xml:space="preserve">
-    <value>出力先が選択されていません</value>
+    <value>Pas de destination</value>
   </data>
   <data name="LabelVideoDestination1" xml:space="preserve">
-    <value>出力先:</value>
+    <value>Destination:</value>
   </data>
   <data name="LabelVideoSource" xml:space="preserve">
-    <value>入力元が選択されていません</value>
+    <value>Pas de source</value>
   </data>
   <data name="LabelVideoSource1" xml:space="preserve">
-    <value>入力元:</value>
+    <value>Source:</value>
   </data>
   <data name="LabelWidth" xml:space="preserve">
-    <value>幅:</value>
+    <value>Largeur:</value>
   </data>
   <data name="LabelWorkerCount" xml:space="preserve">
-    <value>処理単位数:</value>
+    <value>Processus:</value>
   </data>
   <data name="MessageConstrainedBitrateAomenc" xml:space="preserve">
-    <value>NEAV1Eは現在、Constrained Bitrateに対応していません (aomenc)</value>
+    <value>NEAV1E ne prend pas en charge le débit contraint (aomenc)</value>
   </data>
   <data name="MessageCreatePresetBeforeBatch" xml:space="preserve">
-    <value>バッチファイルを追加する前に、プリセットを作成してください</value>
+    <value>Veuillez créer un réglage avant d'utiliser le batch.</value>
   </data>
   <data name="MessageNoInput" xml:space="preserve">
-    <value>入力が選択されていません！</value>
+    <value>Pas de source !</value>
   </data>
   <data name="MessageNoOutput" xml:space="preserve">
-    <value>出力が選択されていません！</value>
+    <value>Pas de destination !</value>
   </data>
   <data name="MessageQualityModeRav1eSVT" xml:space="preserve">
-    <value>NEAV1Eは現在、Constant QualityまたはBitrate Modeのみをサポートしています (rav1e / svt-av1)</value>
+    <value>EAV1E ne prend en charge que le mode Qualité Constante ou Bitrate (rav1e / svt-av1)</value>
   </data>
   <data name="MessageQueueEmpty" xml:space="preserve">
-    <value>キューが空です! \nキューにジョブを追加してください</value>
+    <value>La file d'attente est vide ! \nVeuillez ajouter au moins un job.</value>
   </data>
   <data name="Pause" xml:space="preserve">
-    <value>一時停止</value>
+    <value>Pause</value>
   </data>
   <data name="ProgramSettings" xml:space="preserve">
-    <value>設定</value>
+    <value>Paramètres</value>
   </data>
   <data name="Queue1stPass" xml:space="preserve">
-    <value>1st Pass:</value>
+    <value>1re Passe:</value>
   </data>
   <data name="Queue2ndPass" xml:space="preserve">
-    <value>2nd Pass:</value>
+    <value>2e Passe:</value>
   </data>
   <data name="QueueMenuItemEdit" xml:space="preserve">
-    <value>編集</value>
+    <value>Modifier</value>
+  </data>
+  <data name="QueueMenuItemOpenOutputDir" xml:space="preserve">
+    <value>Ouvrir dossier de destination</value>
   </data>
   <data name="QueueMinLeft" xml:space="preserve">
-    <value>分後</value>
+    <value>File d'attente min.</value>
   </data>
   <data name="Resume" xml:space="preserve">
-    <value>再開</value>
+    <value>Reprendre</value>
   </data>
   <data name="TabItemAdvanced" xml:space="preserve">
-    <value>高度</value>
+    <value>Avancé</value>
   </data>
   <data name="TabItemAudio" xml:space="preserve">
-    <value>音声</value>
+    <value>Audio</value>
   </data>
   <data name="TabItemFilters" xml:space="preserve">
-    <value>フィルター</value>
+    <value>Filtres</value>
   </data>
   <data name="TabItemQueue" xml:space="preserve">
-    <value>キュー</value>
+    <value>File d'attente</value>
   </data>
   <data name="TabItemSubtitles" xml:space="preserve">
-    <value>字幕</value>
+    <value>Sous-titres</value>
   </data>
   <data name="TabItemSummary" xml:space="preserve">
-    <value>基本</value>
+    <value>Résumé</value>
   </data>
   <data name="TabItemVideo" xml:space="preserve">
-    <value>動画</value>
+    <value>Video</value>
   </data>
   <data name="TextBoxDestination" xml:space="preserve">
-    <value>出力先が選択されていません</value>
+    <value>Pas de destination</value>
+  </data>
+  <data name="ToggleSwitchActivateSubtitles" xml:space="preserve">
+    <value>Activer sous-titres</value>
   </data>
   <data name="ToggleSwitchAdvancedSettings" xml:space="preserve">
-    <value>高度な設定</value>
+    <value>Activer onglet avancé</value>
+  </data>
+  <data name="ToggleSwitchAutoPauseResume" xml:space="preserve">
+    <value>Pause / Reprise auto</value>
+  </data>
+  <data name="ToggleSwitchAutoPauseResumeTooltip" xml:space="preserve">
+    <value>Automatiquement reprendre ou mettre en pause si le système est inutilisé plus de 1mn</value>
   </data>
   <data name="ToggleSwitchDeleteTempFiles" xml:space="preserve">
-    <value>一時ファイルを削除</value>
+    <value>Effacer fichiers temp</value>
+  </data>
+  <data name="ToggleSwitchInputSeeking" xml:space="preserve">
+    <value>Détection scène rapide</value>
   </data>
   <data name="ToggleSwitchLogging" xml:space="preserve">
-    <value>ログ</value>
+    <value>Journaux</value>
   </data>
   <data name="ToggleSwitchOverrideWorkerCount" xml:space="preserve">
-    <value>処理単位数を優先</value>
+    <value>Autoriser process +</value>
   </data>
   <data name="ToggleSwitchShutdown" xml:space="preserve">
-    <value>エンコード後シャットダウン</value>
+    <value>Eteindre le PC à la fin</value>
   </data>
   <data name="ToggleSwitchUsePresetBitDepth" xml:space="preserve">
-    <value>プリセットのビット深度を使いますか？</value>
+    <value>Utiliser couleurs (bits) du réglage?</value>
   </data>
   <data name="7ZipNotDetectedTitle" xml:space="preserve">
     <value>7-zip not detected!</value>
